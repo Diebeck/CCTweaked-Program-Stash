@@ -24,7 +24,7 @@ while true do
       sleep(0.75)
       print("Establishing connection...")
       sleep(1.5)
-      shell.run("cloud.lua",code)
+      shell.run(code)
     end
   end
   sleep(30)
